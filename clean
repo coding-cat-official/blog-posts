@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Deletes all build artifacts
+
+echo "removing all build artifacts..."
+
+rm -f blogs.js
+rm **/*/blog.json
+
+echo "successfully removed all blog.json files"

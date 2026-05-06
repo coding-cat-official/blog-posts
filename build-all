@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+for bucket in */; do
+  [[ -d "$bucket" ]] || continue
+  [[ "${bucket:0:1}" = "." ]] && continue
+
+  for blog_dir in "${bucket}"*/; do
+    [[ -d "$blog_dir" ]] || continue
+    echo "building $blog_dir..."
+    ./build-blog "${blog_dir%/}"
+  done
+done

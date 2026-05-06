@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+die() {
+  echo "❌ $@" >&2
+  exit 1
+}
+
+if [ $# -ne 1 ]; then
+  die "Usage: $0 <blog-directory>"
+fi
+
+BLOG_DIR="$1"
+cd "$BLOG_DIR"
+
+# common jq args: post, meta
+# --rawfile automatically slurps & escapes the file content as a JSON string
+jq_args=(
+  --rawfile blog_text post.md
+  --slurpfile meta  meta.json
+)
+
+# creating blog.json for all blog posts
+jq -n "${jq_args[@]}" '
+  {
+    blog_text : $blog_text,
+    meta:        $meta[0]
+  }
+' > blog.json \
+  || die "Failed to build blog post in $BLOG_DIR"
