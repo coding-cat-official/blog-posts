@@ -8,14 +8,14 @@ TMPFILE="$(mktemp).js"
 
 write(){ echo "$@" >> "$TMPFILE"; }
 
-load_blog_id(){ jq -r .meta.blog_id "$1/blog.json"; }
+load_blog_slug(){ jq -r .meta.blog_slug "$1/blog.json"; }
 
 declare -A dir_for_name
 for dir in */*/; do
   [[ -f "${dir}blog.json" ]] || continue
   d=${dir%/}
-  blog_id=$(load_blog_id "$d")
-  dir_for_name[$blog_id]="$d"
+  blog_slug=$(load_blog_slug "$d")
+  dir_for_name[$blog_slug]="$d"
 done
 
 IFS=$'\n' sorted_names=($(printf "%s\n" "${!dir_for_name[@]}" | sort))

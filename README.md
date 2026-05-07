@@ -19,7 +19,7 @@ Each directory must contain the following files to describe the blog post.
   - `title`: the title of the blog post
   - `author`: the name of the person who wrote the blog post
   - `editor`: (optional) the name of the person/people who edited the blog post
-  - `blog_id`: a unique ID for identifying the blog post. **must be in snake case**
+  - `blog_slug`: a unique ID for identifying the blog post. **must be in snake case**
 
 
 # Building
