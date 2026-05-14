@@ -21,10 +21,10 @@
         font-size: 1.5rem;
     }
     h4>a {
-        color: darkgrey;
+        color: gray;
     }
     h4>a:hover {
-        color: grey;
+        color: darkgrey;
     }
 </style>
 

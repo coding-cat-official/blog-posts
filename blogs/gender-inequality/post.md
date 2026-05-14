@@ -4,7 +4,7 @@
         color: #8ae514;
     }
     a.quicklinks:hover {
-        color: grey;
+        color: darkgrey;
     }
 </style>
 

@@ -6,6 +6,15 @@
     table>tbody>tr>td {
         padding: 0 1rem;
     }
+    small>a {
+        color: gray;
+    }
+    small>a:hover {
+        color: darkgrey;
+    }
+    summary {
+        cursor: pointer;
+    }
 </style>
 
 <small>
@@ -13,6 +22,14 @@
 </small>
 
 The fundamental building block of programming is <span class="bold">values</span>, like 0.192 or “Hello”. <span class="bold">Variables</span> allow us to assign names to certain values and to keep track of them. We can use variables to refer to the same value over and over again.
+
+<small>
+    <a href="/#/blogs/types">
+        Click here for a refresher on variable types
+    </a>
+</small>
+<br/>
+<br/>
 
 <span class="bold">Assignment statements</span> create new variables and also initialize them with the values they refer to.
 
@@ -93,8 +110,8 @@ When you name a variable, make sure it’s meaningful to you without being too l
     <summary>Answers</summary>
     <ul>
         <li><span class="bold">final_grade</span> is better because it's a more descriptive variable name than just number.</li>
-        <li><span class="bold">teacher_name</span> is also more descriptime than just "name", so it's better.</li>
-        <li><span class="bold">average_weight</span> is better, because even though it's longer, it's more meaningful. Be careful of abbreviating your variable names too much!</li>
+        <li><span class="bold">teacher_name</span> is also more descriptive than just "name", so it's better.</li>
+        <li><span class="bold">average_weight</span> is better, because even though it's longer, it's more meaningful. Be careful not to abbreviate your variable names too much!</li>
         <li><span class="bold">best_player_score</span> is better, because the other option is just way too long</li>
     </ul>
 </details>
