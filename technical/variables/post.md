@@ -18,7 +18,7 @@
 </style>
 
 <small>
-    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", authored by Jaya Nikalantan and Bennett Axtell
+    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", by Jaya Nikalantan and Bennett Axtell
 </small>
 
 The fundamental building block of programming is <span class="bold">values</span>, like 0.192 or “Hello”. <span class="bold">Variables</span> allow us to assign names to certain values and to keep track of them. We can use variables to refer to the same value over and over again.
@@ -49,6 +49,13 @@ The <span class="bold">assignment operator</span>, `=`, should not be confused w
 17 = age
 
 We use variables in a program to “remember” things and/or give a name to a value, like the current score at the football game. But variables are <span class="bold">variable</span>. This means they can change over time, just like the score at a football game. You can assign a value to a variable, and later assign a different value, or the result of a calculation, to the same variable.
+
+Be careful! You can't use a variable before it has been assigned a value. The following code won't work, because it tries to use a variable <span class="bold">before it gets created</span>.
+
+```python
+total = 5 + number
+number = 10
+```
 
 ### Variable names
 

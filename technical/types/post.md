@@ -6,7 +6,7 @@
 </style>
 
 <small>
-    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", authored by Jaya Nikalantan and Bennett Axtell
+    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", by Jaya Nikalantan and Bennett Axtell
 </small>
 
 A <span class="bold">value</span> is one of the fundamental things — like a word or a number — that a program manipulates. For example, 2, 3, and 5 (the result when we added 2 + 3) are values, as is "Hello, World!". We often refer to these values as objects and we will use the words value and object interchangeably in Python. A variable allows us to name the value so that we can refer to it elsewhere.
