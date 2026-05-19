@@ -33,13 +33,21 @@ Look at your variable names. Make sure that if you’re defining a variable call
 <span class="bold">Python is very particular about tabs.</span> Every time a line ends with a colon (or deux-point), the line after it needs to have one more tab. Any lines that belong to this block of code must also have that extra indentation.
 
 
+
+<div id="print"></div>
+
+### Use Print Statements
+
+In the CodingCat editor, you're allowed to use print statements to find out which part of your code is going wrong. For example, if you're tracing your code and you're <span class="bold">unsure of the content of a variable</span>, use a print statement! The output will be displayed under each test case.  This method works best when combined with tracing your code.
+
+
 <div id="failed-tests"></div>
 
 ### Similarities of the Failed Test Cases
 
 If your code runs and succeeds in a few test cases, but not all of them, <span class="bold">look at the tests that it fails</span>. Are there any commonalities between them? What can they mean?
 
-Once you find the similarities those tests share, you’re one step closer to spotting your bug. You can look for parts of your code that should be doing that job. This method works best when combined with tracing your code.
+Once you find the similarities those tests share, you’re one step closer to spotting your bug. You can look for parts of your code that should be doing that job, and use print statements. This method works best when combined with tracing your code.
 
 
 
