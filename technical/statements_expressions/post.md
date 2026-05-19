@@ -18,7 +18,7 @@
 </style>
 
 <small>
-    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", authored by Jaya Nikalantan and Bennett Axtell
+    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", by Jaya Nikalantan and Bennett Axtell
 </small>
 
 A <span class="bold">statement</span> is an instruction in Python that DOES something. One example covered in a <a href="/#blogs/variables">previous article</a> is assignment statements, where a variable gets assigned a value. Another example is a print statement, which means that the print function gets called.
