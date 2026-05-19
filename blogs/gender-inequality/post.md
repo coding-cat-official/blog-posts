@@ -6,6 +6,11 @@
     a.quicklinks:hover {
         color: darkgrey;
     }
+    .references>p {
+        margin: 1rem 0px 1rem 0.5in;
+        text-indent: -0.5in;
+        line-height: 2rem;
+    }
 </style>
 
 As some of you may know, computer science is a field with a disproportionately small number of women as opposed to other disciplines. However, it wasn't always this way. During the early days of computing, women were dominating in software development. Then where does today's discrimination come from?
@@ -68,3 +73,43 @@ Though women have been integral to the development of computer science since the
 Computer science has evolved to see software development as a masculine discipline, a mindset which to this day still discourages women or people of color from joining the field. We have to stop valuing “natural brilliance” so much, as <span class="bold">it is not a true predictor of success in computer science</span>. It is possible to get knowledgeable in any domain of programming without being a Sheldon Cooper.
 
 Despite what we may think, there is still rampant sexism in some domains of computer science. We must keep on working towards eliminating sexism entirely, and that starts with you, the student, questioning your own preconceived notions.
+
+### References
+
+<div class="references">
+<p>
+    Ensmenger, Nathan. “‘Beards, Sandals, and Other Signs of Rugged Individualism’: Masculine Culture within the Computing Professions.” <em>Osiris</em>, vol. 30, no. 1, 2015, pp. 38–65. <em>JSTOR</em>, https://doi.org/10.1086/682955. Accessed 19 May 2026.
+</p>
+
+<p>
+    “Gender Results Framework - Education and skills development.” <em>Statistics Canada</em>, 21 Aug. 2025, https://www.statcan.gc.ca/hub-carrefour/gdis-sgdi/education-skills-education-competences-eng.htm. Accessed 19 May 2026.
+</p>
+
+<p>
+    Gore, Regan. “Remembering the Eniac Six.” <em>Eniac</em>, www.eniac.vc/writings/remembering-the-eniac-six. Accessed 19 May 2026.
+</p>
+
+<p>
+    Hicks, Marie. <em>Programmed Inequality</em>. Cambridge, Mit Press, 2018.
+</p>
+
+<p>
+    Leslie, S.-J., et al. “Expectations of Brilliance Underlie Gender Distributions across Academic Disciplines.” <em>Science</em>, vol. 347, no. 6219, 15 Jan. 2015, pp. 262–265, science.sciencemag.org/content/347/6219/262.long, https://doi.org/10.1126/science.1261375.
+</p>
+
+<p>
+    Penner, Andrew M. “Gender Inequality in Science: How Should a Better Gender Balance Be Achieved?” <em>Science</em>, vol. 347, no. 6219, 2015, pp. 234–35. <em>JSTOR</em>, http://www.jstor.org/stable/24745861. Accessed 19 May 2026.
+</p>
+
+<p>
+    Rankin, Joy Lisi. “Core Memory Weavers and Navajo Women Made the Apollo Missions Possible.” <em>ScienceNews</em>, 18 Feb. 2022, https://www.sciencenews.org/article/core-memory-weavers-navajo-apollo-raytheon-computer-nasa. Accessed 19 May 2026.
+</p>
+
+<p>
+    Ridley, Louise. “Bletchley Park: Meet 'Dilly's Girls', The WWII Women Codebreakers Who Cracked Enigma.” <em>HuffPost UK</em>, 25 Jan. 2015, https://www.huffingtonpost.co.uk/2015/01/25/bletchley-park-enigma-female-codebreakers_n_6532856.html.
+</p>
+
+<p>
+‌   Thompson, Clive. “The Secret History of Women in Coding.” <em>The New York Times</em>, 13 Feb. 2019, https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html.
+</p>
+</div>
