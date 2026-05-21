@@ -11,6 +11,15 @@
         text-indent: -0.5in;
         line-height: 2rem;
     }
+    div.highlight {
+        background-color: #8ae514; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        border: 1px solid black; 
+        color: black; 
+        box-shadow: 5px 5px black; 
+        margin-bottom: 1rem;
+    }
 </style>
 
 As some of you may know, computer science is a field with a disproportionately small number of women as opposed to other disciplines. However, it wasn't always this way. During the early days of computing, women were dominating in software development. Then where does today's discrimination come from?
@@ -21,7 +30,7 @@ The history of computer science cannot be separated from women's involvement in 
 
 Starting from the end of the 19th century, computers began being used to automate complex calculations. However, those machines couldn't just calculate things on their own, as they required a human operator to input the calculations. This job was almost exclusively done by women. They would work long hours, for salaries often lower than those of factory workers and without unions. 
 
-<div style="background-color: #8ae514; padding: 1rem; border-radius: 1rem; border: 1px solid black; color: black; box-shadow: 5px 5px black; margin-bottom: 1rem;">
+<div class="highlight">
     Working with computers to write logic or code was considered a low-level clerk job.
 </div>
 
@@ -57,7 +66,7 @@ That’s because there are widespread cultural associations linking the stereoty
 
 While not all women or people of color may face this opposition, many people in these marginalized groups do experience it without even realizing it. If you see yourself in what’s being described, know that you are not alone. 
 
-<div style="background-color: #8ae514; padding: 1rem; border-radius: 1rem; border: 1px solid black; color: black; box-shadow: 5px 5px black; margin-bottom: 1rem;">
+<div class="highlight">
     At Dawson, we have the Dawson Ada Society for women and gender-diverse people to find community.
     <a href="https://www.dawsoncollege.qc.ca/computer-science-technology/dawson-ada-society/" style="color: white;" class="quicklinks">
         Click here for more information

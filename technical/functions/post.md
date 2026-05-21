@@ -15,6 +15,15 @@
     summary {
         cursor: pointer;
     }
+    div.highlight {
+        background-color: #8ae514; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        border: 1px solid black; 
+        color: black; 
+        box-shadow: 5px 5px black; 
+        margin-bottom: 1rem;
+    }
 </style>
 
 <small>
@@ -63,7 +72,9 @@ How many parameters does the function `add_numbers` have? What are their names?
 </details>
 <br />
 
+<div class="highlight">
 Watch out! Defining a function doesn’t mean it gets run by the code. To actually find out how to use a function, read further.
+</div>
 
 ### Calling functions
 
@@ -88,6 +99,10 @@ add_numbers(1, 5)
 It works the same way as built-in functions. You just put the name, the parentheses, and the parameters in the right order.
 
 Unlike variables, functions can be defined <span class="bold">anywhere</span> in the code. You can call them on a line before their definition, as long as eventually there exists a function with that name and those parameters.
+
+<div class="highlight">
+Watch out! In CodingCat, your functions get run automatically to test them. You don't actually need to call them (unlike when you're building your own Python program).
+</div>
 
 ### Returning a value
 
