@@ -84,7 +84,7 @@ if age >= 18:
 	if job == "programmer":
 		print("Your job seems fun!")
 	else:
-		print("You’re not a programmer")
+		print("You're not a programmer")
 else:
 	print("You are not over 18.")
 ```
