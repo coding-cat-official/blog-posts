@@ -28,7 +28,7 @@ In the CodingCat editor, some Python-specific keywords are supposed to always be
     A good rule of thumb is to check if a word is defined in your own code (for example when you create a variable). If it’s not, it should be highlighted in blue.
 </div>
 
-Look at your variable names. Make sure that if you’re defining a variable called “result”, you’re using the name “result” when referring to it later, not “resutl”, “Result” or “total”. Computers are pretty stupid, so even a tiny typo or capitalization error can make them completely lose their marbles.
+Look at your variable names. Make sure that if you’re defining a variable called "result", you’re using the name "result" when referring to it later, not "resutl", "Result" or "total". Computers are pretty stupid, so even a tiny typo or capitalization error can make them completely lose their marbles.
 
 <span class="bold">Python is very particular about tabs.</span> Every time a line ends with a colon (or deux-point), the line after it needs to have one more tab. Any lines that belong to this block of code must also have that extra indentation.
 

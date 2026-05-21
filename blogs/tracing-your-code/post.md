@@ -54,7 +54,7 @@ Follow these simple steps to trace your code effectively:
 
     * Does it create a variable? Does it check if something is true or not? Maybe it’s actually changing the content of a variable?
 
-3.	Based on the previous step, write down the <span class="special-bold">contents of the variables</span> you have in your code after “executing” that line.
+3.	Based on the previous step, write down the <span class="special-bold">contents of the variables</span> you have in your code after "executing" that line.
 
 4.	<span class="special-bold">Double-check your understanding</span> of that line. Do what it tells you to do, not what you would want it to do.
 
@@ -86,7 +86,7 @@ Here are a few resources:
 #### A Byte of Python: https://python.swaroopch.com/basics.html 
 
 * This is a comprehensive tutorial about Python, which explains every part of it, beginning with the basics you’re learning in this course. You can look around the website for a tutorial on the feature you’re unsure about, whether it be if statements, types, or simply variable declaration.
-* The most relevant sections are “Operators and Expressions” and “Control Flow”. 
+* The most relevant sections are "Operators and Expressions" and "Control Flow". 
 
 <div class="highlight">
     <span class="special-bold">Looking at documentation is perfectly normal!</span> In fact, all industry experts continue looking at documentation throughout their careers. It’s impossible to know 100% of the features of a language you’re using, especially when the language is getting constant updates.

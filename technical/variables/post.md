@@ -21,7 +21,7 @@
     This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", by Jaya Nikalantan and Bennett Axtell
 </small>
 
-The fundamental building block of programming is <span class="bold">values</span>, like 0.192 or “Hello”. <span class="bold">Variables</span> allow us to assign names to certain values and to keep track of them. We can use variables to refer to the same value over and over again.
+The fundamental building block of programming is <span class="bold">values</span>, like 0.192 or "Hello". <span class="bold">Variables</span> allow us to assign names to certain values and to keep track of them. We can use variables to refer to the same value over and over again.
 
 <small>
     <a href="/#/blogs/types">
@@ -42,13 +42,13 @@ percent=0.2165
 success=True
 ```
 
-The above are all example of variable assignments. The first line assigns the string value “How are you?” to a new variable named message. The second associates the integer 32 to the variable age. The third line gives the floating-point number 0.2165 to percent, and the fourth assigns the boolean True to the variable success.
+The above are all example of variable assignments. The first line assigns the string value "How are you?" to a new variable named message. The second associates the integer 32 to the variable age. The third line gives the floating-point number 0.2165 to percent, and the fourth assigns the boolean True to the variable success.
 
 The <span class="bold">assignment operator</span>, `=`, should not be confused with equality that you see in Math, where you can move terms from the right-hand-side to the left, and vice-versa. (We will see later that testing for equality in programming is `==`). The assignment statement links a variable name, always on the left-hand-side of the operator, with a <span class="bold">value</span>, on the right-hand side. This is why you will get an error if you enter:
 
 17 = age
 
-We use variables in a program to “remember” things and/or give a name to a value, like the current score at the football game. But variables are <span class="bold">variable</span>. This means they can change over time, just like the score at a football game. You can assign a value to a variable, and later assign a different value, or the result of a calculation, to the same variable.
+We use variables in a program to "remember" things and/or give a name to a value, like the current score at the football game. But variables are <span class="bold">variable</span>. This means they can change over time, just like the score at a football game. You can assign a value to a variable, and later assign a different value, or the result of a calculation, to the same variable.
 
 Be careful! You can't use a variable before it has been assigned a value. The following code won't work, because it tries to use a variable <span class="bold">before it gets created</span>.
 

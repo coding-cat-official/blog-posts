@@ -90,9 +90,9 @@ print(9>19)  -> False
 In Python, comparison operators can also be used to compare strings. We can check whether two strings are equal or not:
 
 ```py
-message = “hello”
-print(message == “Hello”)
-print(message != “hi there”)
+message = "hello"
+print(message == "Hello")
+print(message != "hi there")
 ```
 
 What do you think the above code prints?
@@ -103,15 +103,15 @@ What do you think the above code prints?
 </details>
 <br />
 
-Be careful, because the capitalization of the string matters! “Hello” and “hello” are considered two different strings.
+Be careful, because the capitalization of the string matters! "Hello" and "hello" are considered two different strings.
 
 We can also use other comparison operators to compare strings in alphabetical order:
 
 ```
-print(“aaa” < “bbb”)
+print("aaa" < "bbb")
 ```
 
-The above statement will print `True`, because alphabetically, `“aaa”` is inferior to `“bbb”` in the alphabetical order (it comes first).
+The above statement will print `True`, because alphabetically, `"aaa"` is inferior to `"bbb"` in the alphabetical order (it comes first).
 
 ### Logical Operators
 
@@ -162,7 +162,7 @@ The `or` logical operator will return `True` as long as at least one side of the
 | **False or True**  | True   |
 | **False or False** | False  |
 
-Lastly, what if we want to “flip” whether a statement is True? Let’s take a look at this example, where the goal is to find out whether a product is expensive or <span class="bold">not</span>:
+Lastly, what if we want to "flip" whether a statement is True? Let’s take a look at this example, where the goal is to find out whether a product is expensive or <span class="bold">not</span>:
 
 ```python
 product_cheap = True
