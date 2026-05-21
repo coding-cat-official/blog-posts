@@ -98,6 +98,7 @@ Knowing the flow of execution, what do you think gets printed by that piece of c
 <details>
     <summary>Answer</summary>
     `You are over 18`
+    
     `Your job seems fun!`
 </details>
 <br />

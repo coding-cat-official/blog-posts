@@ -101,6 +101,7 @@ What do you think this code will print?
 <details>
     <summary>Answer</summary>
     `32768`
+    
     `14134776518227074636666380005943348126619871175004951664972849610340958208`
 </details>
 <br />

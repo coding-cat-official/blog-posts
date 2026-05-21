@@ -99,6 +99,7 @@ What do you think the above code prints?
 <details>
     <summary>Answer</summary>
     `False`
+    
     `True`
 </details>
 <br />
@@ -199,7 +200,9 @@ What does this code print, one line at a time?
 <details>
     <summary>Answer</summary>
     `True`
+
     `True`
+    
     `False`
 </details>
 <br />
