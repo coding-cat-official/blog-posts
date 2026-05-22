@@ -122,7 +122,7 @@ What will this code print?
 
 <details>
     <summary>Answer</summary>
-    `Sunny`
+    `sunny`
 
     `Tuesday`
 </details>
