@@ -2,5 +2,6 @@
     "title": "Range",
     "author": "",
     "blog_slug": "range",
-    "category": "technical"
+    "category": "technical",
+    "order": 12
 }
