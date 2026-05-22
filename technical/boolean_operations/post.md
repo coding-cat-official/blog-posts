@@ -206,3 +206,41 @@ What does this code print, one line at a time?
     `False`
 </details>
 <br />
+
+### Parentheses
+
+When mixing and and or, use parentheses to make your intent clear. In the order or operations, and comes before or.
+
+Example:
+```py
+a = True
+b = True
+c = False
+
+print(a or b and c)
+```
+
+The expression is evaluated thusly:
+```py
+True or True and False
+True or (True and False)  # 'and' evaluated first, so it's as if there were parentheses there
+True or False
+True
+```
+
+Let's try having the same expression but with parentheses:
+
+```py
+a = True
+b = True
+c = False
+print((a or b) and c)
+```
+
+This expression is evaluated differently:
+
+```py
+(True or True) and False  # parentheses first
+True and False
+False  # different result!
+```
