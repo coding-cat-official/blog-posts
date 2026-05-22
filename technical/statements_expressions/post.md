@@ -15,6 +15,16 @@
     summary {
         cursor: pointer;
     }
+    
+    div.highlight {
+        background-color: #8ae514; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        border: 1px solid black; 
+        color: black; 
+        box-shadow: 5px 5px black; 
+        margin-bottom: 1rem;
+    }
 </style>
 
 <small>
@@ -37,6 +47,27 @@ The <span class="bold">evaluation of an expression</span> produces a value, whic
 <span class="bold">Operators</span> are special tokens that represent computations like addition, multiplication and division. The values the operator works on are called <span class="bold">operands</span>.
 
 When a variable is encountered in place of an operand, Python replaces the variable with the value it represents, and then performs the calculation.
+
+### Operator precedence
+
+Here's a complete list of the order in which operators are evaluated in Python (kind of like PEMDAS in maths!). You may not know the meaning of all the terms yet; for now, just take care of the operators you do know.
+
+<div class="highlight">
+Note: Evaluation begins with the top row and progresses downwards. Operators on the same line are evaluated left-to-right if there aren't any parentheses. Parentheses are the topmost operation, they're always the top priority.
+</div>
+
+|                                 Operator                                |                               Description                               |
+|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
+|  (expressions...),\[expressions...\], {key: value...}, {expressions...}  | Binding or tuple display, list display, dictionary display, set display |
+|  x\[index], x\[index:index\], x(arguments...), x.attribute                 | Subscription, slicing, call, attribute reference                        |
+| **                                                                      | Exponentiation (groups right to left)                                   |
+| -x                                                                      | Negation                                                                |
+|  *, /, //, %                                                            | Multiplication, real and integer division, remainder                    |
+|  +, -                                                                   | Addition and subtraction                                                |
+|  in, not in, is, is not, <, <=, >, >=, !=, ==                           | Comparisons, including membership tests and identity tests              |
+| not x                                                                   | Boolean NOT                                                             |
+| and                                                                     | Boolean AND                                                             |
+| or                                                                      | Boolean OR                                                              |
 
 ### Math Operators & Operands
 
