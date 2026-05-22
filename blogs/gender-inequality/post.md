@@ -4,7 +4,21 @@
         color: #8ae514;
     }
     a.quicklinks:hover {
-        color: grey;
+        color: darkgrey;
+    }
+    .references>p {
+        margin: 1rem 0px 1rem 0.5in;
+        text-indent: -0.5in;
+        line-height: 2rem;
+    }
+    div.highlight {
+        background-color: #8ae514; 
+        padding: 1rem; 
+        border-radius: 1rem; 
+        border: 1px solid black; 
+        color: black; 
+        box-shadow: 5px 5px black; 
+        margin-bottom: 1rem;
     }
 </style>
 
@@ -16,7 +30,7 @@ The history of computer science cannot be separated from women's involvement in 
 
 Starting from the end of the 19th century, computers began being used to automate complex calculations. However, those machines couldn't just calculate things on their own, as they required a human operator to input the calculations. This job was almost exclusively done by women. They would work long hours, for salaries often lower than those of factory workers and without unions. 
 
-<div style="background-color: #8ae514; padding: 1rem; border-radius: 1rem; border: 1px solid black; color: black; box-shadow: 5px 5px black; margin-bottom: 1rem;">
+<div class="highlight">
     Working with computers to write logic or code was considered a low-level clerk job.
 </div>
 
@@ -46,13 +60,13 @@ The stereotype began reinforcing itself. Men would get encouraged to study compu
 
 As of the 2023-2024 school year, in Canada, only <span class="bold">28.5% of the people studying computer science are women</span>. How come?
 
-As we’ve seen previously, we’re in a field that values innate brilliance as a predictor of individual success. However, research has shown that fields that value this kind of “raw talent” factor tend to have significantly fewer women and people of color in them.
+As we’ve seen previously, we’re in a field that values innate brilliance as a predictor of individual success. However, research has shown that fields that value this kind of "raw talent" factor tend to have significantly fewer women and people of color in them.
 
 That’s because there are widespread cultural associations linking the stereotype of raw intelligence to white men, as exemplified by the archetype of the computer nerd. Consequently, women and black people are stereotyped as lacking this talent. Some of the people belonging to those groups are implicitly discouraged from joining fields where raw intelligence is so highly valued, either because of internalized bias or external influence.
 
 While not all women or people of color may face this opposition, many people in these marginalized groups do experience it without even realizing it. If you see yourself in what’s being described, know that you are not alone. 
 
-<div style="background-color: #8ae514; padding: 1rem; border-radius: 1rem; border: 1px solid black; color: black; box-shadow: 5px 5px black; margin-bottom: 1rem;">
+<div class="highlight">
     At Dawson, we have the Dawson Ada Society for women and gender-diverse people to find community.
     <a href="https://www.dawsoncollege.qc.ca/computer-science-technology/dawson-ada-society/" style="color: white;" class="quicklinks">
         Click here for more information
@@ -65,6 +79,46 @@ If you are reading this article as a non-marginalized person, it may be benefici
 
 Though women have been integral to the development of computer science since the beginning of the discipline, their involvement has been minimized or ignored. We can honor their contributions now despite the fact that many of their names were lost to history.
 
-Computer science has evolved to see software development as a masculine discipline, a mindset which to this day still discourages women or people of color from joining the field. We have to stop valuing “natural brilliance” so much, as <span class="bold">it is not a true predictor of success in computer science</span>. It is possible to get knowledgeable in any domain of programming without being a Sheldon Cooper.
+Computer science has evolved to see software development as a masculine discipline, a mindset which to this day still discourages women or people of color from joining the field. We have to stop valuing "natural brilliance" so much, as <span class="bold">it is not a true predictor of success in computer science</span>. It is possible to get knowledgeable in any domain of programming without being a Sheldon Cooper.
 
 Despite what we may think, there is still rampant sexism in some domains of computer science. We must keep on working towards eliminating sexism entirely, and that starts with you, the student, questioning your own preconceived notions.
+
+### References
+
+<div class="references">
+<p>
+    Ensmenger, Nathan. "‘Beards, Sandals, and Other Signs of Rugged Individualism’: Masculine Culture within the Computing Professions." <em>Osiris</em>, vol. 30, no. 1, 2015, pp. 38–65. <em>JSTOR</em>, https://doi.org/10.1086/682955. Accessed 19 May 2026.
+</p>
+
+<p>
+    "Gender Results Framework - Education and skills development." <em>Statistics Canada</em>, 21 Aug. 2025, https://www.statcan.gc.ca/hub-carrefour/gdis-sgdi/education-skills-education-competences-eng.htm. Accessed 19 May 2026.
+</p>
+
+<p>
+    Gore, Regan. "Remembering the Eniac Six." <em>Eniac</em>, www.eniac.vc/writings/remembering-the-eniac-six. Accessed 19 May 2026.
+</p>
+
+<p>
+    Hicks, Marie. <em>Programmed Inequality</em>. Cambridge, Mit Press, 2018.
+</p>
+
+<p>
+    Leslie, S.-J., et al. "Expectations of Brilliance Underlie Gender Distributions across Academic Disciplines." <em>Science</em>, vol. 347, no. 6219, 15 Jan. 2015, pp. 262–265, science.sciencemag.org/content/347/6219/262.long, https://doi.org/10.1126/science.1261375.
+</p>
+
+<p>
+    Penner, Andrew M. "Gender Inequality in Science: How Should a Better Gender Balance Be Achieved?" <em>Science</em>, vol. 347, no. 6219, 2015, pp. 234–35. <em>JSTOR</em>, http://www.jstor.org/stable/24745861. Accessed 19 May 2026.
+</p>
+
+<p>
+    Rankin, Joy Lisi. "Core Memory Weavers and Navajo Women Made the Apollo Missions Possible." <em>ScienceNews</em>, 18 Feb. 2022, https://www.sciencenews.org/article/core-memory-weavers-navajo-apollo-raytheon-computer-nasa. Accessed 19 May 2026.
+</p>
+
+<p>
+    Ridley, Louise. "Bletchley Park: Meet 'Dilly's Girls', The WWII Women Codebreakers Who Cracked Enigma." <em>HuffPost UK</em>, 25 Jan. 2015, https://www.huffingtonpost.co.uk/2015/01/25/bletchley-park-enigma-female-codebreakers_n_6532856.html.
+</p>
+
+<p>
+‌   Thompson, Clive. "The Secret History of Women in Coding." <em>The New York Times</em>, 13 Feb. 2019, https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html.
+</p>
+</div>
