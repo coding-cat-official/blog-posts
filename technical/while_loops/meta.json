@@ -2,5 +2,6 @@
     "title": "While Loops",
     "author": "Thomas Koleboshyna",
     "blog_slug": "while_loops",
-    "category": "technical"
+    "category": "technical",
+    "order": 14
 }
