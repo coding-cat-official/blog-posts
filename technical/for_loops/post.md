@@ -35,7 +35,12 @@
     }
 </style>
 
-A lot of computations involve processing (also called <span class="bold">iterating over</span> a collection one item at a time). For collection data types this means that we would like to process one character at a time. Often we start at the beginning, select each character in turn, do something to it, and continue until the end. This pattern of processing is called a <span class="bold">traversal</span>.
+
+<small>
+    This article and others in the "technical" section are based on the textbook "How to Think Like a Computer Scientist: The Dawson College Edition", by Jaya Nikalantan and Bennett Axtell
+</small>
+
+A lot of computations involve processing (also called <span class="bold">iterating over</span>) a collection one item at a time. For collection data types this means that we would like to process one character at a time. Often we start at the beginning, select each character in turn, do something to it, and continue until the end. This pattern of processing is called a <span class="bold">traversal</span>.
 
 The `for` statement can iterate over the items of a sequence (a list of strings in the case below).
 
@@ -76,6 +81,16 @@ Since a string is a sequence of characters, the for loop iterates over each char
 for character in "Camila GR":
 	print(character)
 ```
+
+How many times will the program above print something? What will be the 5th thing it prints?
+
+<details>
+    <summary>Answer</summary>
+    The code will print something 9 times.
+
+    The 5th thing it will print is `l`
+</details>
+<br />
 
 The loop variable `character` is automatically reassigned each character in the string “Camila GR”. We will refer to this type of sequence iteration as <span class="bold">iteration by item</span>. Note that it is only possible to process the characters one at a time from left to right.
 
