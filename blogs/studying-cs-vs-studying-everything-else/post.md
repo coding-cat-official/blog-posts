@@ -19,6 +19,7 @@
         color: black; 
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
+        margin: 2rem;
     }
     .center{
         text-align:center;
@@ -65,8 +66,9 @@ After finishing an exercise or a session, question yourself. What did I understa
 ### Reflecting in CS 
 
 Many students treat reflection as optional, something to do if time allows. In Computer science, it's one of the most valuable study habits you can build. 
-
-This is exactly why Coding Cat includes pre-session and post-session questions at the start and end of every session. Reflecting at what you've worked on over time shows you your progress, patterns in where you struggle and draws your attention to weaknesses rather than reviewing what you already know. 
+<div class="highlight">
+    This is exactly why Coding Cat includes pre-session and post-session questions at the start and end of every session. Reflecting at what you've worked on over time shows you your progress, patterns in where you struggle and draws your attention to weaknesses rather than reviewing what you already know. 
+</div>
 
 CS rewards the students who are honest with themselves, consistent in their practice and willing to sit with difficulty long enough to actually understand it. 
 

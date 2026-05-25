@@ -19,6 +19,7 @@
         color: black; 
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
+        margin: 2rem;
     }
     .center{
         text-align:center;
@@ -56,13 +57,13 @@ It is also worth noting how young this field actually is. Computer science did n
 
 Your phone has more computing power than what existed in the entire world in the mid-1960s. The Apollo moon landing could have been run on a couple of Nintendo consoles. Computers started as arithmetic machines and grew into tools that run the internet, create graphics and simulate the universe. All of it comes down to flipping zeros and ones. 
 
-So what does computer science actually cover? It can be broken down into three parts: theory, engineering and applications. 
-
- 
+<div class="highlight">
+    So what does computer science actually cover? It can be broken down into three parts: theory, engineering and applications. 
+</div>
 
 ### The foundation of Computer Science 
 
-The theoretical foundation of computer science begins with <a href=https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing. </a>
+The theoretical foundation of computer science begins with <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing.</a>
 
 Turing created the idea of a Turing machine, which is a simple model of how a computer works. It has a tape to store information, a head to read and write on that tape and a list of instructions to follow. Every computer today is built on that same idea. 
 <p class="center">
