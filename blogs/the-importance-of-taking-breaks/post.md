@@ -18,7 +18,7 @@
         border: 1px solid black; 
         color: black; 
         box-shadow: 5px 5px black; 
-        margin-bottom: 1rem;
+        margin: 2rem;
     }
     .tips{
         background: white;
@@ -41,6 +41,11 @@
     .tips li{ 
         margin: 0.3rem 0; 
         line-height: 1.5; 
+    }
+    .bold.subhead{
+        display: block;
+        margin: 0.8rem 0 0.35rem 0;
+        font-weight: 700;
     }
     .center{
         text-align:center;
@@ -66,7 +71,7 @@ Every break is seen as time stolen from your future self. This belief pushes stu
 
 When you take a break, your brain does not stop working. During short periods of rest, the brain replays what you just learned like reviewing a recording at high speed. This replay happens much faster than the actual training and assists in the formation of strong connections between brain cells in order for the information to be retained. 
 
-Neuroscientists call it memory consolidation, where the brain organizes and stores new information. This is why you come back from a break and suddenly understand something better or perform a task more easily. 
+Neuroscientists call it <span class="bold">memory consolidation</span>, where the brain organizes and stores new information. This is why you come back from a break and suddenly understand something better or perform a task more easily. 
 
 You didn’t figure it out by staring harder at the problem. Your brain figured it out while you were relaxing. 
 
@@ -88,14 +93,15 @@ Breaks reduce stress and help prevent burnout. Taking rest gives the brain time 
 
 Not every break is equally helpful. The most effective breaks are those that allow the body and mind disengage.  
 
-Movement breaks like a short walk, stretching and stepping outside are the most effective. Physical movement increases blood flow and helps your body shake off the tension that builds up during long periods of sitting and concentrating. 
+<span class="bold subhead">Movement breaks</span> like a short walk, stretching and stepping outside are the most effective. Physical movement increases blood flow and helps your body shake off the tension that builds up during long periods of sitting and concentrating.
 
-Social breaks can also be beneficial, because things like talking with friends or classmates provides a sense of connection and support. Even a small interaction helps people feel more refreshed and can improve mood and energy in a way being alone sometimes can’t. 
+<span class="bold subhead">Social breaks</span> can also be beneficial, because things like talking with friends or classmates provides a sense of connection and support. Even a small interaction helps people feel more refreshed and can improve mood and energy in a way being alone sometimes can’t.
 
-Micro-breaks are another effective strategy that lasts from 30 seconds to 10 minutes pauses taken. These are short breaks consists as getting a drink of water or looking away from a screen. They help prevent the accumulation of fatigue and maintain attention during work sessions. 
+<span class="bold subhead">Micro-breaks</span> are another effective strategy that lasts from 30 seconds to 10 minutes pauses taken. These are short breaks consists as getting a drink of water or looking away from a screen. They help prevent the accumulation of fatigue and maintain attention during work sessions.
 
-What doesn’t count as a real break are switching from one screen to another or moving to another tab for more online tasks. Your brain needs disengagement, not a different form of work. 
-
+<div class="highlight">
+    What doesn’t count as a real break are switching from one screen to another or moving to another tab for more online tasks. Your brain needs disengagement, not a different form of work. 
+</div>
 <div class="highlight">
     <div class="tips">
         <h3>Tips</h3>
