@@ -20,6 +20,14 @@
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
     }
+    .center{
+        text-align:center;
+    }
+    img.empathy{
+        max-width: 90%;
+        margin: 1rem 2rem;
+        max-height: 30rem;
+    }
 </style>
 
 
@@ -29,16 +37,16 @@ In 1984, Apple introduced the Macintosh computer, which was not designed for eng
 
  
 
-This didn't come from code. It came from empathy. 
+<span class="bold">This didn't come from code. It came from empathy. </span>
 
 As a computer science student, you are already developing this skill without realizing it, every time you think about how a user or a teammate might interact with your code. 
 
 Technical fields are associated with logic, problem-solving and analytical thinking. But technology is built for people. Engineers, developers and designers work with teammates, clients and users every day and empathy is what allows them to understand their perspectives, emotions and needs of those people. 
 
 Without it, even the most brilliant solution can end up solving the wrong problem. 
-
-<img class="empathy" alt="Apple computer" src="/blog-images/Apple-computer.jpg">
-
+<p class="center">
+    <img class="empathy" alt="Apple computer" src="/blog-images/Apple-computer.jpg">
+</p>
 ### Its different branches 
 
 Empathy shows up across every branch of computer science and engineering.  
@@ -70,8 +78,9 @@ The user experience, known as UX, focuses on how people feel when using a produc
 Slow loading, poor layouts and unclear instructions frustrate the users. However, clean design, fast performance and straightforward communication do the opposite. These aren't small details. They decide if the user continues using a product or abandons it entirely. 
 
 The choice of color, animations, layout choices and the sounds a device makes can all affect how a user feels. 
-
-<img class="empathy" alt="UX designer" src="/blog-images/UX.jpg">
+<p class="center">
+    <img class="empathy" alt="UX designer" src="/blog-images/UX.jpg">
+</p>    
 ### Conclusion
 Empathy is not something separate from technical work. It is central to it. While coding and technical knowledge remain essential, understanding people is equally valuable. 
 
