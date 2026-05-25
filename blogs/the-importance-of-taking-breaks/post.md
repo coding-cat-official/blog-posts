@@ -20,6 +20,28 @@
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
     }
+    .tips{
+        background: white;
+        border-left: 4px solid #8ae514;
+        padding: 1rem;
+        border-radius: 5px;
+        margin: 1rem 0;
+    }
+    .tips h3{ 
+        margin: 0 0 0.2rem 0; 
+    }
+    .tips p{ 
+        margin: 0 0 0.5rem 0; 
+        color: black; 
+    }
+    .tips ul{ 
+        margin: 0; 
+        padding-left: 1rem; 
+    }
+    .tips li{ 
+        margin: 0.3rem 0; 
+        line-height: 1.5; 
+    }
     .center{
         text-align:center;
     }
@@ -74,18 +96,21 @@ Micro-breaks are another effective strategy that lasts from 30 seconds to 10 min
 
 What doesn’t count as a real break are switching from one screen to another or moving to another tab for more online tasks. Your brain needs disengagement, not a different form of work. 
 
-
-### Tips
-
-Here’s a few strategies that help:
-
-- Set a new session on Coding Cat
-- Set alarms or reminders for breaks
-- Go on a walk or stretch
-- Stay away from your screen
-- Drink water or grab a snack
-- Talk with friends or classmates
-- Do something you enjoy
+<div class="highlight">
+    <div class="tips">
+        <h3>Tips</h3>
+        <p>Here's a few strategies that help:</p>
+        <ul>
+            <li>Start a session on Coding Cat</li>
+            <li>Set alarms or timers for regular breaks</li>
+            <li>Take a short walk or stretch</li>
+            <li>Step away from screens </li>
+            <li>Drink water or grab a snack</li>
+            <li>Check in with a friend or classmate</li>
+            <li>Do something you enjoy</li>
+        </ul>
+    </div>
+</div>
 
 ### Conclusion 
 
