@@ -24,9 +24,9 @@
         text-align:center;
     }
     img.empathy{
-        max-width: 90%;
+        max-width: 100%;
         margin: 1rem 2rem;
-        max-height: 30rem;
+        max-height: 40rem;
     }
 </style>
 
