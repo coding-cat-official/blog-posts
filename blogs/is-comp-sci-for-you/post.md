@@ -7,6 +7,12 @@
         font-weight: bold;
         color: black;
     }
+    a {
+        color: gray;
+    }
+    a:hover {
+        color: darkgrey;
+    }
     div.highlight {
         background-color: #8ae514; 
         padding: 1rem; 
