@@ -72,6 +72,7 @@ print(price>100)
 ```
 
 What do you think the code above prints? 
+
 <details>
     <summary>Answer</summary>
     `True`
@@ -96,6 +97,7 @@ print(message != "hi there")
 ```
 
 What do you think the above code prints?
+
 <details>
     <summary>Answer</summary>
     `False`
@@ -124,6 +126,7 @@ print(price > 0 and price < 100)
 ```
 
 What do you think is the output of the above code?
+
 <details>
     <summary>Answer</summary>
     `True`
@@ -212,6 +215,7 @@ What does this code print, one line at a time?
 When mixing and and or, use parentheses to make your intent clear. In the order or operations, and comes before or.
 
 Example:
+
 ```py
 a = True
 b = True
@@ -221,6 +225,7 @@ print(a or b and c)
 ```
 
 The expression is evaluated thusly:
+
 ```py
 True or True and False
 True or (True and False)  # 'and' evaluated first, so it's as if there were parentheses there

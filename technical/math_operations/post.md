@@ -73,7 +73,7 @@ print(-6//4)
 
 The <span class="bold">modulus operator</span>, sometimes also called the remainder operator or integer remainder operator, works on integers (and integer expressions) and yields the remainder when the first operand is divided by the second. In Python, the modulus operator is a percent sign (`%`). The syntax is the same as for other operators. Here’s a visual representation: 
 
-<img class="diagram" alt="Explanation of the modulus operator, featuring 3 groups of 4 coins, with 1 leftover coin" src="blog-posts/modulus-operator.png">
+<img class="diagram" alt="Explanation of the modulus operator, featuring 3 groups of 4 coins, with 1 leftover coin" src="/blog-images/modulus-operator.png">
 
 We’re dividing 13 into groups of 4. But since 13 is not divisible by 4, we have a remainder of 1. Thus, `13%4=1`. 
 
