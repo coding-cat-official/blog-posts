@@ -23,10 +23,65 @@
 </style>
 
 
+### Why Empathy matters  
+
+In 1984, Apple introduced the Macintosh computer, which was not designed for engineers or programmers, but for everyone else. Where other companies were focused on technical requirements, Apple asked a different question. What does a person need from a computer? The result was a machine with a graphical interface, a mouse and an experience so spontaneous that it changed what people believed technology could be. 
+
+ 
+
+This didn't come from code. It came from empathy. 
+
+As a computer science student, you are already developing this skill without realizing it, every time you think about how a user or a teammate might interact with your code. 
+
+Technical fields are associated with logic, problem-solving and analytical thinking. But technology is built for people. Engineers, developers and designers work with teammates, clients and users every day and empathy is what allows them to understand their perspectives, emotions and needs of those people. 
+
+Without it, even the most brilliant solution can end up solving the wrong problem. 
+
+ 
+
+### Its different branches 
+
+Empathy shows up across every branch of computer science and engineering.  
+
+In cybersecurity, it is essential to predict how people interact with systems and where the risk of human errors can arise.  
+
+In artificial intelligence, developers are required to make decisions considering the aspect of fairness, accessibility and the impact of technology on society.  
+
+In web and mobile development, empathy is what separates a product that works from one that people actually enjoy using. It is important to know what users need and be able to communicate with their teams. 
+
+Research in software engineering confirms that empathy improves communication and cooperation among team members.  
+
+ 
+
+### Human-computer interaction from a user perspective 
+
+Human-computer interaction, known as HCI, is the study of how people interact with technology and how digital systems can be made easier and more comfortable to use. 
+
+When engineers design products with empathy, they consider those following questions. Is this application easy to understand? Can people of all ages or abilities use it? What difficulties might users experience?  
+
+Apps reflect this thinking through simple layouts, readable text and intentional color choices because their designers took time to understand how real users think and behave. Features like captions, voice controls, dark mode and adjustable text sizes aren't optional features. They're what make technology usable for more people. 
+
+Developers always test their products with real users to understand what works and what doesn't. 
+
+### User experience as core design 
+
+The user experience, known as UX, focuses on how people feel when using a product, website or application. Empathetic developers know that it’s as important as the functionality of the code itself. 
+
+Slow loading, poor layouts and unclear instructions frustrate the users. However, clean design, fast performance and straightforward communication do the opposite. These aren't small details. They decide if the user continues using a product or abandons it entirely. 
+
+The choice of color, animations, layout choices and the sounds a device makes can all affect how a user feels. 
+
+### Conclusion
+Empathy is not something separate from technical work. It is central to it. While coding and technical knowledge remain essential, understanding people is equally valuable. 
+
+The Macintosh didn't just change computing. It showed that the best technology starts with understanding the person using it. 
+ 
 
 ### References
 
 <div class="references">
 <p>
-    Ensmenger, Nathan. "‘Beards, Sandals, and Other Signs of Rugged Individualism’: Masculine Culture within the Computing Professions." <em>Osiris</em>, vol. 30, no. 1, 2015, pp. 38–65. <em>JSTOR</em>, https://doi.org/10.1086/682955. Accessed 19 May 2026.
+    "Human-Computer Interaction." Figma, www.figma.com/resource-library/human-computer-interaction/. 
+
+    Johnson, Benjamin D. "Coding with Empathy." Medium, medium.com/@benjamin.d.johnson/coding-with-empathy-37a708040f14. Accessed 19 May 2026.
 </p>
