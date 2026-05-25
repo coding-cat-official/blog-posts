@@ -35,9 +35,9 @@
 Most students arrive in their first computer science course expecting it to feel like math or science with a set of information to memorize, formulas to apply, content to review the night before an exam.  
 
 They quickly discover that approach doesn't work or many don't understand why until it's too late. Studying CS requires a completely different mindset. 
-
-The first misconception to let go of is that computer science is about learning to code. CS is about understanding how computers think, how systems are built and how to solve problems at a high level of abstraction. 
-
+<div class="highlight">
+    The first misconception to let go of is that computer science is about learning to code. CS is about understanding how computers think, how systems are built and how to solve problems at a high level of abstraction. 
+</div>
 Courses like data communication ask students to think about concepts they can't see or touch. This is different from biology, where you memorize the parts of a cell by heart. In computer science, you have to understand the concept to apply it in situations you've never seen before. <span class="bold">Memorizing the syntax or a block of code won't save you when the problem changes. </span>
 <p class="center">
     <img class="studying" alt="Tired man studying" src="/blog-images/tired-guy.png">

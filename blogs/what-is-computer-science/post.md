@@ -84,7 +84,7 @@ On top of the hardware, there’s the software using programming languages. That
 
 The operating system manages hardware, memory and programs to ensure that everything operates together. 
 
-It took decades of dedicated engineering to build the computers we use today. There is still room for the next generation of students to push it even further. If hardware or engineering interests you, you could be part of what comes next. 
+It took decades of dedicated engineering to build the computers we use today. <span class="bold">There is still room for the next generation of students to push it even further. </span>If hardware or engineering interests you, you could be part of what comes next. 
 
  
 
@@ -143,7 +143,7 @@ Theory and engineering merge together to solve actual problems accross many spec
     </tbody>
 </table>
 
-Computer science is too broad for anyone to master it all and no one is expecting you to. The goal is to find the questions that interests you and dive into it. 
+Computer science is too broad for anyone to master it all and no one is expecting you to. <span class="bold">The goal is to find the questions that interests you and dive into it. </span>
 
  
 
