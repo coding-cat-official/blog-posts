@@ -19,6 +19,7 @@
         color: black; 
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
+        margin: 2rem;
     }
     .center{
         text-align:center;
@@ -47,6 +48,7 @@ Without it, even the most brilliant solution can end up solving the wrong proble
 <p class="center">
     <img class="empathy" alt="Apple computer" src="/blog-images/Apple-computer.jpg">
 </p>
+
 ### Its different branches 
 
 Empathy shows up across every branch of computer science and engineering.  
@@ -64,9 +66,9 @@ Research in software engineering confirms that empathy improves communication an
 ### Human-computer interaction from a user perspective 
 
 Human-computer interaction, known as HCI, is the study of how people interact with technology and how digital systems can be made easier and more comfortable to use. 
-
-When engineers design products with empathy, they consider those following questions. Is this application easy to understand? Can people of all ages or abilities use it? What difficulties might users experience?  
-
+<div class="highlight">
+    When engineers design products with empathy, they consider those following questions. Is this application easy to understand? Can people of all ages or abilities use it? What difficulties might users experience?  
+</div>
 Apps reflect this thinking through simple layouts, readable text and intentional color choices because their designers took time to understand how real users think and behave. Features like captions, voice controls, dark mode and adjustable text sizes aren't optional features. They're what make technology usable for more people. 
 
 Developers always test their products with real users to understand what works and what doesn't. 
@@ -75,12 +77,13 @@ Developers always test their products with real users to understand what works a
 
 The user experience, known as UX, focuses on how people feel when using a product, website or application. Empathetic developers know that it’s as important as the functionality of the code itself. 
 
-Slow loading, poor layouts and unclear instructions frustrate the users. However, clean design, fast performance and straightforward communication do the opposite. These aren't small details. They decide if the user continues using a product or abandons it entirely. 
+<span class="bold">Slow loading, poor layouts and unclear instructions frustrate the users. However, clean design, fast performance and straightforward communication do the opposite. </span>These aren't small details. They decide if the user continues using a product or abandons it entirely. 
 
 The choice of color, animations, layout choices and the sounds a device makes can all affect how a user feels. 
 <p class="center">
     <img class="empathy" alt="UX designer" src="/blog-images/UX.jpg">
 </p>    
+
 ### Conclusion
 Empathy is not something separate from technical work. It is central to it. While coding and technical knowledge remain essential, understanding people is equally valuable. 
 
