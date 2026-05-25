@@ -42,7 +42,7 @@ You didn’t figure it out by staring harder at the problem. Your brain figured 
 
 Rest also gives the brain a chance to clear out metabolic waste that builds up during intense thinking and to rebalance the chemicals that control focus, mood and attention. By skipping this maintenance, those systems start to deteriorate, which is why eight hours of studying produces worse results than a few hours. 
 
-<img class="breaks" alt="Taking breaks images" src="../../../../public/blog-images/breaks.webp">
+<img class="breaks" alt="Taking breaks images" src="/blog-images/breaks.webp">
 
 ### How breaks improve learning and performance 
 

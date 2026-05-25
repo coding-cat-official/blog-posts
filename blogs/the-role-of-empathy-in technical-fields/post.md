@@ -37,7 +37,7 @@ Technical fields are associated with logic, problem-solving and analytical think
 
 Without it, even the most brilliant solution can end up solving the wrong problem. 
 
-<img class="empathy" alt="Apple computer" src="../../../../public/blog-images/Apple-computer.jpg">
+<img class="empathy" alt="Apple computer" src="/blog-images/Apple-computer.jpg">
 
 ### Its different branches 
 
@@ -71,7 +71,7 @@ Slow loading, poor layouts and unclear instructions frustrate the users. However
 
 The choice of color, animations, layout choices and the sounds a device makes can all affect how a user feels. 
 
-<img class="empathy" alt="UX designer" src="../../../../public/blog-images/UX.jpg">
+<img class="empathy" alt="UX designer" src="/blog-images/UX.jpg">
 ### Conclusion
 Empathy is not something separate from technical work. It is central to it. While coding and technical knowledge remain essential, understanding people is equally valuable. 
 
