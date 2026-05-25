@@ -41,7 +41,7 @@ The theoretical foundation of computer science begins with Alan Turing.
 
 Turing created the idea of a Turing machine, which is a simple model of how a computer works. It has a tape to store information, a head to read and write on that tape and a list of instructions to follow. Every computer today is built on that same idea. 
 
- 
+<img class="cs" alt="Turing machine" src="../../../../public/blog-images/turing-machine.jpg">
 
 Some problems are impossible for any computer to solve. It doesn’t matter how powerful they are. Others are possible but would take longer to figure out. 
 
@@ -145,7 +145,7 @@ Computer science is one of the fastest moving fields. New branches keep emerging
 
 Understanding the full map of computer science helps anyone make sense of the world we live in and where it might be heading next.  
 
-
+<img class="cs" alt="Map of Computer Science" src="../../../../public/blog-images/map-cs.png">
 ### References
 
 <div class="references">

@@ -32,7 +32,7 @@ The first misconception to let go of is that computer science is about learning 
 
 Courses like data communication ask students to think about concepts they can't see or touch. This is different from biology, where you memorize the parts of a cell by heart. In computer science, you have to understand the concept to apply it in situations you've never seen before. Memorizing the syntax or a block of code won't save you when the problem changes. 
 
- 
+<img class="studying" alt="Tired man studying" src="../../../../public/blog-images/tired-guy.png">
 
 ### Practice over memorization 
 
@@ -42,9 +42,7 @@ You cannot cram a programming concept the night before and expect to use it. Ski
 
 This means that the work has to be spread out. Engaging in small amount of work is more effective than to do everything at once. Every time you sit down and work through a problem, you enhance a skill that will remains with you in a way that reading about it won’t. 
 
- 
-
- 
+<img class="empathy" alt="Playing guitar" src="../../../../public/blog-images/music-instrument.png">
 
 ### How developers learn 
 
