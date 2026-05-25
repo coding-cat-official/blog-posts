@@ -68,5 +68,5 @@ That's a different kind of studying. But it is also a more valuable one.
 
 <div class="references">
 <p>
-    University of Waterloo Computer Science Instructional Support Group. "How to Succeed in Computer Science Courses." University of Waterloo, uwaterloo.ca/computer-science-instructional-support-group/undergraduate-support/how-succeed-computer-science-courses. Accessed 19 May 2026.
+    University of Waterloo Computer Science Instructional Support Group. "How to Succeed in Computer Science Courses." <em>University of Waterloo</em>, https://uwaterloo.ca/computer-science-instructional-support-group/undergraduate-support/how-succeed-computer-science-courses Accessed 18 May 2026.
 </p>

@@ -93,10 +93,11 @@ Instead of seeing rest as wasted time, students should view it as part of a heal
 
 <div class="references">
 <p>
-    "Foundations for Success: Importance of Taking Breaks and Having Other Interests." The Wellbeing Thesis, https://thewellbeingthesis.org.uk/foundations-for-success/importance-of-taking-breaks-and-having-other-interests/ 
+    "Foundations for Success: Importance of Taking Breaks and Having Other Interests." <em>The Wellbeing Thesis </em>, https://thewellbeingthesis.org.uk/foundations-for-success/importance-of-taking-breaks-and-having-other-interests/
+    Accessed 5 May 2026. 
+</p>
 
- 
-
-"Study Shows How Taking Short Breaks May Help Our Brains Learn New Skills." National Institutes of Health, www.nih.gov/news-events/news-releases/study-shows-how-taking-short-breaks-may-help-our-brains-learn-new-skills. 
-Accessed 19 May 2026.
+<p>
+    "Study Shows How Taking Short Breaks May Help Our Brains Learn New Skills." <em>National Institutes of Health</em>, https://www.nih.gov/news-events/news-releases/study-shows-how-taking-short-breaks-may-help-our-brains-learn-new-skills/ 
+    Accessed 5 May 2026.
 </p>

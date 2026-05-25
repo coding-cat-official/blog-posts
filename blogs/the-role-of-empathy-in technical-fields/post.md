@@ -82,7 +82,9 @@ The Macintosh didn't just change computing. It showed that the best technology s
 
 <div class="references">
 <p>
-    "Human-Computer Interaction." Figma, www.figma.com/resource-library/human-computer-interaction/. 
+    "Human-Computer Interaction." Figma, https://www.figma.com/resource-library/human-computer-interaction/ Accessed 8 May 2026.
+</p>
 
-    Johnson, Benjamin D. "Coding with Empathy." Medium, medium.com/@benjamin.d.johnson/coding-with-empathy-37a708040f14. Accessed 19 May 2026.
+<p>
+    Johnson, Benjamin D. "Coding with Empathy." <em>Medium</em>, https://medium.com/@benjamin.d.johnson/coding-with-empathy-37a708040f14 Accessed 8 May 2026.
 </p>
