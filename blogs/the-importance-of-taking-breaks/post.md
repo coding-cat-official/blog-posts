@@ -20,6 +20,14 @@
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
     }
+    .center{
+        text-align:center;
+    }
+    img.breaks{
+        max-width: 90%;
+        margin: 1rem 2rem;
+        max-height: 30rem;
+    }
 </style>
 
 ### The myth 
@@ -30,7 +38,7 @@ This is the myth of constant productivity and it's silently wrecking students ev
 
 Every break is seen as time stolen from your future self. This belief pushes students through exhaustion and wonder why their result keeps getting worse despite putting in more effort. 
 
-Instead of seeing rest as a reward after finishing your work, it should be seen as part of the process. Being productive is not about working all the time but working in a manner that you’re able to sustain yourself. 
+<span class="bold">Instead of seeing rest as a reward after finishing your work, it should be seen as part of the process. </span>Being productive is not about working all the time but working in a manner that you’re able to sustain yourself. 
 
 ### What happens in the brain during rest 
 
@@ -42,7 +50,9 @@ You didn’t figure it out by staring harder at the problem. Your brain figured 
 
 Rest also gives the brain a chance to clear out metabolic waste that builds up during intense thinking and to rebalance the chemicals that control focus, mood and attention. By skipping this maintenance, those systems start to deteriorate, which is why eight hours of studying produces worse results than a few hours. 
 
-<img class="breaks" alt="Taking breaks images" src="/blog-images/breaks.webp">
+<p class="center">
+    <img class="breaks" alt="Taking breaks images" src="/blog-images/breaks.webp">
+</p>
 
 ### How breaks improve learning and performance 
 
@@ -65,29 +75,23 @@ Micro-breaks are another effective strategy that lasts from 30 seconds to 10 min
 What doesn’t count as a real break are switching from one screen to another or moving to another tab for more online tasks. Your brain needs disengagement, not a different form of work. 
 
 
-# Tips 
+### Tips
 
-Here’s a few strategies that help: 
+Here’s a few strategies that help:
 
-Set a new session on Coding Cat 
-
-Set alarms or reminders for breaks 
-
-Go on a walk or stretch 
-
-Stay away from your screen 
-
-Drink water or grab a snack 
-
-Talk with friends or classmates 
-
-Do something you enjoy 
+- Set a new session on Coding Cat
+- Set alarms or reminders for breaks
+- Go on a walk or stretch
+- Stay away from your screen
+- Drink water or grab a snack
+- Talk with friends or classmates
+- Do something you enjoy
 
 ### Conclusion 
 
 Rest is not laziness. The students who perform best over time aren’t the ones who work the most of hours. They’re the ones who know how to push hard and recover well in a rhythm they can maintain.  
 
-Instead of seeing rest as wasted time, students should view it as part of a healthy study routine. So next time that you feel bad for closing your computer, remember that the break is not the time lost. It will be what makes you a winner. 
+Instead of seeing rest as wasted time, students should view it as part of a healthy study routine. <span class="bold">So next time that you feel bad for closing your computer, remember that the break is not the time lost. It will be what makes you a winner. </span>
  
 ### References
 
