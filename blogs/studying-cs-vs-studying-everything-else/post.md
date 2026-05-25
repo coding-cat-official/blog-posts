@@ -20,6 +20,14 @@
         box-shadow: 5px 5px black; 
         margin-bottom: 1rem;
     }
+    .center{
+        text-align:center;
+    }
+    img.empathy{
+        max-width: 100%;
+        margin: 1rem 2rem;
+        max-height: 40rem;
+    }
 </style>
 
 ### Beyond coding 
@@ -30,27 +38,27 @@ They quickly discover that approach doesn't work or many don't understand why un
 
 The first misconception to let go of is that computer science is about learning to code. CS is about understanding how computers think, how systems are built and how to solve problems at a high level of abstraction. 
 
-Courses like data communication ask students to think about concepts they can't see or touch. This is different from biology, where you memorize the parts of a cell by heart. In computer science, you have to understand the concept to apply it in situations you've never seen before. Memorizing the syntax or a block of code won't save you when the problem changes. 
-
-<img class="studying" alt="Tired man studying" src="/blog-images/tired-guy.png">
-
+Courses like data communication ask students to think about concepts they can't see or touch. This is different from biology, where you memorize the parts of a cell by heart. In computer science, you have to understand the concept to apply it in situations you've never seen before. <span class="bold">Memorizing the syntax or a block of code won't save you when the problem changes. </span>
+<p class="center">
+    <img class="studying" alt="Tired man studying" src="/blog-images/tired-guy.png">
+</p>
 ### Practice over memorization 
 
 In most subjects, spaced repetition works well. Review your notes, revisit the material regularly and the information sticks. In CS, repetition still matters, but what you repeat is what makes all the difference. 
 
-You cannot cram a programming concept the night before and expect to use it. Skills like debugging, tracing a code or computational thinking are built through practicing problems and writing code over time. It's closer to learning an instrument or a sport than studying for a history test. 
+<span class="bold">You cannot cram a programming concept the night before and expect to use it. </span>Skills like debugging, tracing a code or computational thinking are built through practicing problems and writing code over time. It's closer to learning an instrument or a sport than studying for a history test. 
 
 This means that the work has to be spread out. Engaging in small amount of work is more effective than to do everything at once. Every time you sit down and work through a problem, you enhance a skill that will remains with you in a way that reading about it won’t. 
-
-<img class="empathy" alt="Playing guitar" src="/blog-images/music-instrument.png">
-
+<p class="center">
+    <img class="studying" alt="Playing guitar" src="/blog-images/music-instrument.png">
+</p>
 ### How developers learn 
 
 Developers don't just write code. They reflect on what they know and what they don't. This practice of identifying gaps is something you can adopt early. 
 
 After finishing an exercise or a session, question yourself. What did I understand? Where did I get stuck and why? Could I explain this concept to someone else without looking at my answer? If the answer to the previous question is no, you haven't learned it but only seen it. 
 
-A self-assessment consumes your time, but it is essential. It changes studying into an active activity. 
+<span class="bold">A self-assessment consumes your time, but it is essential. It changes studying into an active activity. </span>
 
  
 
