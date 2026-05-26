@@ -1,0 +1,36 @@
+[
+    {
+        "question": "Which of these is a valid variable name?",
+        "options": [
+            "student_name",
+            "student name",
+            "str",
+            "student_name?",
+            "name"
+        ],
+        "correct": [
+            "student_name",
+            "name"
+        ]
+    },
+    {
+        "question": "What does the variable message contain at the end of this code block?",
+        "code": "message = \"Hello, my friend!\"\ngreetings = \"Hello there! \"\ngreetings = message\nbad_message = \"Hello… my enemy!\"\nmessage = bad_message",
+        "options": [
+            "\"Hello, my friend!\"",
+            "\"Hello there! \"",
+            "\"Hello… my enemy! \""
+        ],
+        "correct": "\"Hello… my enemy! \""
+    },
+    {
+        "question": "Which of the following is a valid variable assignment?",
+        "options": [
+            "total = 75 + 55",
+            "customer = \"Rhonda James\" 73",
+            "2026 + 1 = year",
+            "\"Rhonda James\" = customer"
+        ],
+        "correct": "total = 75 + 55"
+    }
+]

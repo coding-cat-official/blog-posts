@@ -228,7 +228,8 @@ The expression is evaluated thusly:
 
 ```py
 True or True and False
-True or (True and False)  # 'and' evaluated first, so it's as if there were parentheses there
+True or (True and False)  
+# 'and' evaluated first, so it's as if there were parentheses there
 True or False
 True
 ```

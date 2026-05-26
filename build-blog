@@ -18,13 +18,22 @@ cd "$BLOG_DIR"
 jq_args=(
   --rawfile blog_text post.md
   --slurpfile meta  meta.json
+  --argjson questions [[]]
 )
+if [ -e "questions.json" ]; then
+  jq_args=(
+    --rawfile blog_text post.md
+    --slurpfile meta  meta.json
+    --slurpfile questions questions.json
+  )
+fi
 
 # creating blog.json for all blog posts
 jq -n "${jq_args[@]}" '
   {
     blog_text : $blog_text,
-    meta:        $meta[0]
+    meta:        $meta[0],
+    questions:  $questions[0]
   }
 ' > blog.json \
   || die "Failed to build blog post in $BLOG_DIR"
