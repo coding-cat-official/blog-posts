@@ -20,20 +20,28 @@ jq_args=(
   --slurpfile meta  meta.json
   --argjson questions [[]]
 )
+
+blog_creation='
+  {
+    blog_text : $blog_text,
+    meta:        $meta[0]
+  '
+
 if [ -e "questions.json" ]; then
   jq_args=(
     --rawfile blog_text post.md
     --slurpfile meta  meta.json
     --slurpfile questions questions.json
   )
+  blog_creation+=',
+      questions: $questions[0]
+  '
 fi
 
-# creating blog.json for all blog posts
-jq -n "${jq_args[@]}" '
-  {
-    blog_text : $blog_text,
-    meta:        $meta[0],
-    questions:  $questions[0]
+blog_creation+="
   }
-' > blog.json \
+"
+
+# creating blog.json for all blog posts
+jq -n "${jq_args[@]}" "$blog_creation" > blog.json \
   || die "Failed to build blog post in $BLOG_DIR"
