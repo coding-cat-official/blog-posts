@@ -2,5 +2,6 @@
     "title": "More on Strings & Lists",
     "author": "",
     "blog_slug": "more_on_strings_lists",
-    "category": "technical"
+    "category": "technical",
+    "order": 15
 }

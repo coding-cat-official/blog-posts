@@ -2,5 +2,6 @@
     "title": "Mathematical Operators",
     "author": "",
     "blog_slug": "math_operators",
-    "category": "technical"
+    "category": "technical",
+    "order": 4
 }

@@ -48,7 +48,7 @@ The `for` statement can iterate over the items of a sequence (a list of strings 
 grocery_list = [ 'Tomato', 'Butter', 'Oregano', 'Fettuccini' ]
 for product in grocery_list:
 	message = f'You need to buy {product}!'
-	print(weather_prediction)
+	print(message)
 ```
 
 The loop variable takes on <span class="bold">each value</span> in the sequence of names. The loop body (i.e., the indented lines of code) is performed once for product.
@@ -59,7 +59,7 @@ How many times will the code above print something? What will it print on the 3r
     <summary>Answer</summary>
     The code will print something 4 times.
 
-    The 3rd thing it will print is `You need to buy Oregano`
+    The 3rd thing it will print is `You need to buy Oregano!`
 </details>
 <br />
 

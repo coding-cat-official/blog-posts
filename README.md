@@ -20,6 +20,15 @@ Each directory must contain the following files to describe the blog post.
   - `author`: the name of the person who wrote the blog post
   - `editor`: (optional) the name of the person/people who edited the blog post
   - `blog_slug`: a unique ID for identifying the blog post. **must be in snake case**
+  - `category`: the category of the blog post. For now there is the 'meta' and 'technical' categories
+  - `order`: (optional) field describing the order the posts should be in. If it's not there, they will be shown alphabetically
+- `questions.json` (optional)
+  An array of questions to check a student's understanding of a post
+  - `question`: The text of the question
+  - `code`: (optional) A block of code to support the question
+  - `options`: The options for the question's answers
+  - `correct`: The correct answer among all the options
+  - `explanation`: (optional) An explanation revealed after an answer is selected
 
 
 # Building
