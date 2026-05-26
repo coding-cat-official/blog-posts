@@ -1,0 +1,35 @@
+[
+    {
+        "question": "What does Python do to expressions?",
+        "options": [
+            "Assignment statement ",
+            "Statement retrieval ",
+            "Variation ",
+            "Evaluation "
+        ],
+        "correct": [
+            "Evaluation "
+        ]
+    },
+    {
+        "question": "What is the following line of code?",
+        "code": "print(\"Hello world!\") ",
+        "options": [
+            "An operand ",
+            "A statement ",
+            "An operator",
+            "An expression "
+        ],
+        "correct": "A statement "
+    },
+    {
+        "question": "What are statements? ",
+        "options": [
+            "Combinations of values and variables that need to be evaluated ",
+            "A line of code that DOES something ",
+            "Special tokens that represent computations ",
+            "Values that the operators work on "
+        ],
+        "correct": "A line of code that DOES something "
+    }
+]

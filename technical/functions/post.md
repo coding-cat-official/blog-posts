@@ -134,3 +134,5 @@ What do you think the variable `total` now contains?
     `29`
 </details>
 <br />
+
+### Quiz
