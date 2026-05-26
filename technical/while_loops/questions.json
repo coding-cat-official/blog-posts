@@ -1,35 +1,37 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "How many times will the loop in this code get executed?",
+    "code": "result = \"\"\n\nwhile len(result) < 5:\n    result = result + \"h\"",
+    "options": [
+      "0 times",
+      "3 times",
+      "5 times",
+      "10 times",
+      "It will run infinitely"
+    ],
+    "correct": "5 times",
+    "explanation": "The loop will automatically stop when the string becomes 5 characters long."
+  },
+  {
+    "question": "How many times will the loop below get executed?",
+    "code": "my_list = [True, True, False, True]\ni = 0\n\nwhile my_list[i] == True:\n    i = i + 1",
+    "options": [
+      "0 times",
+      "1 time",
+      "2 times",
+      "3 times",
+      "4 times",
+      "It will run infinitely"
+    ],
+    "correct": "2 times",
+    "explanation": "This loop will run until it encounters an element in the array that is not equal to `True`. The first element in the array to not be `True` is the 3rd one, so the loop will stop before its third iteration."
+  },
+  {
+    "question": "True or False: While loops stop running if the condition becomes False midway through.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct": "False"
+  }
 ]

@@ -1,35 +1,39 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "What will this code print?",
+    "code": "word = \"sunlight\"\n\nresult = \"\"\n\nfor num in range(len(word)):\n    if num > 2:\n        result = result + word[num]\n\nprint(result)",
+    "options": [
+      "\"sunlight\"",
+      "\"light\"",
+      "\"sun\"",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "light",
+    "explanation": "This code iterates over a range equivalent to the length of the word \"sunlight\". For any character whose index is superior to 2, it adds that character to the result. It just so happens that the first character having an index superior to 2 is \"l\", then \"i\", then \"g\", \"h\", and \"t\"."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "days = ['Monday', 'Tuesday', 'Wednesday']\n\nresult = []\n\nfor num in range(len(days) - 1, -1, -1):\n    result.append(days[num])\n\nprint(result)",
+    "options": [
+      "['Monday', 'Tuesday', 'Wednesday']",
+      "['Wednesday', 'Tuesday', 'Monday']",
+      "['Monday']",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "['Wednesday', 'Tuesday', 'Monday']",
+    "explanation": "We’re creating a range that starts at the last index of the array, and ends at 0, going down from the highest to the lowest number. We’re iterating over the `days` array in reverse order, so it gets added to the new array in reverse order. "
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "class_info = {\n    'teacher': 'Eric',\n    'name': 'Programing I',\n    'semester': 'Fall 2026'\n}\n\nresult = \"\"\n\nfor key in class_info:\n    result = result + key\n\nprint(result)",
+    "options": [
+      "'Eric Programming I Fall2026'",
+      "'EricProgramming IFall2026'",
+      "'teacher name semester'",
+      "'teachernamesemester'",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "'teachernamesemester'",
+    "explanation": "Iterating over a dictionary provides us with its keys, not its values. However, when adding the keys to the `result` string, we don’t automatically add spaces."
+  }
 ]

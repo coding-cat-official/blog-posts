@@ -1,35 +1,37 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "How many times will the for loop execute in the following example?",
+    "code": "new_list = [0, -4.54, 83, 230]\n\nfor num in new_list:\n    # do something",
+    "options": [
+      "0 times",
+      "5 times",
+      "10 times",
+      "15 times",
+      "Infinitely"
+    ],
+    "correct": "5 times",
+    "explanation": "There are 5 items in the list, so the loop will execute a total of 5 times."
+  },
+  {
+    "question": "What happens if a for loop is iterating over an empty list or an empty string?",
+    "options": [
+      "It keeps on repeating the loop infinitely.",
+      "It skips the for loop and its body is never executed.",
+      "It executes the body of the for loop only one time.",
+      "It uses a placeholder list and iterates over that instead."
+    ],
+    "correct": "It skips the for loop and its body is never executed."
+  },
+  {
+    "question": "What is the value of `result` at the end of this code?",
+    "code": "new_list = ['i', ' ', 'a', 'm', ' ', 'a', 'c', 'o', 'd', 'e', 'r']\nresult = \"\"\n\nfor char in new_list:\n    result = result + char\n\nprint(result)",
+    "options": [
+      "I am a coder",
+      "i am a coder",
+      "iamacoder",
+      "i am acoder",
+      "Error, the code won’t run"
+    ],
+    "correct": "i am acoder"
+  }
 ]

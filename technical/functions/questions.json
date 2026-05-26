@@ -1,35 +1,45 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "Which of the following function definitions are valid?",
+    "options": [
+      "define new_function():",
+      "define new function(num):",
+      "def new_func2(a, b):",
+      "def new_func3(a b):",
+      "def new_func23!(num):",
+      "def new_func45(num):"
+    ],
+    "correct": [
+      "def new_func2(a, b):",
+      "def new_func45(num):"
+    ]
+  },
+  {
+    "question": "What will the variable `total` contain after this code is run?",
+    "code": "def multiply_numbers(a, b):\n    return a * b\n\ntotal = multiply_numbers(5, 2)",
+    "options": [
+      "7",
+      "10",
+      "5",
+      "2",
+      "None",
+      "Error, the code won’t run"
+    ],
+    "correct": "10",
+    "explanation": "The code does run. The function `multiply_numbers` multiplies `a` and `b`, returning the result to the variable `total`."
+  },
+  {
+    "question": "What will the variable `sum` contain once the following code is run?",
+    "code": "def add_numbers(a, b):\n    return a - b\n\nsum = add_numbers(5, 2)",
+    "options": [
+      "7",
+      "10",
+      "5",
+      "2",
+      "3",
+      "Error, the code won’t run"
+    ],
+    "correct": "3",
+    "explanation": "Even though the function’s name is add_numbers, Python only does what you tell it to. And what it is told in the body of the function is to subtract those numbers."
+  }
 ]

@@ -1,35 +1,42 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "What will the following code print?",
+    "code": "grade = 89\nname = \"Cam\"\nprint(f\"Hello [name], your grade is [grade] \")",
+    "options": [
+      "Hello Cam, your grade is 89",
+      "Hello [name], your grade is [grade]",
+      "Hello [Cam], your grade is [89]",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "Hello [name], your grade is [grade]",
+    "explanation": "Be careful! When it comes to formatted strings, you need to embed variables using curly braces `{}`."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "uncensored = \"This bleeping bleep has stolen my bleeps!\"\ncensored = uncensored.replace(\"bleep\", \"****\")\nprint(censored)",
+    "options": [
+      "This bleeping bleep has stolen my bleeps!",
+      "This ****ing **** has stolen my ****s!",
+      "****",
+      "bleep",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "This ****ing **** has stolen my ****s!"
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "base = \"lucy\"\nresult = (base + \";\") * len(base)\nprint(result)",
+    "options": [
+      "lucylucylucylucy;;;;",
+      "lucy;lucy;lucy;lucy",
+      "lucy;lucy;lucy;lucy;",
+      ";;;;lucylucylucylucy",
+      ";lucy;lucy;lucy;lucy",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "lucy;lucy;lucy;lucy;"
+  }
 ]

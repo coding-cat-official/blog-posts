@@ -1,35 +1,50 @@
 [
-    {
-        "question": "",
-        "options": [
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "correct": [
-            " "
-        ]
-    },
-    {
-        "question": "",
-        "code": "",
-        "options": [
-            " ",
-            " ",
-            "",
-            " "
-        ],
-        "correct": " "
-    },
-    {
-        "question": " ",
-        "options": [
-            " ",
-            " ",
-            " ",
-            ""
-        ],
-        "correct": " "
-    }
+  {
+    "question": "What will the following code print?",
+    "code": "new_list= [50, 55, 0, 1, 5]\nitem = new_list[3]\nprint(new_list[item])",
+    "options": [
+      "50",
+      "55",
+      "0",
+      "1",
+      "5",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "55",
+    "explanation": " By accessing the item at index 3 in `new_list`, we get `1`. We then use this as an index for accessing another element, the one at index 1, getting back `55`."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "new_str = \"2345\"\nitem = new_str[1]\nprint(new_str[item])",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "2345",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "Error, the code won’t run",
+    "explanation": "By accessing the item at index 1 in `new_list`, we get \"3\". We then try using this as an index for accessing another element. However, one very important thing we’re forgetting is that we’re accessing a string. Even though we’re getting back the number 3, it has quotes around it, so it’s not treated as an integer. We therefore can’t use it to access an index."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "programming_languages = ['Python', 'Java', 'C#', 'PHP']\nlanguage = programming_languages[-4]\nprint(language[3])",
+    "options": [
+      "Python",
+      "Java",
+      "C#",
+      "PHP",
+      "h",
+      "P",
+      "a",
+      "C",
+      "Nothing",
+      "Error, the code won’t run"
+    ],
+    "correct": "h",
+    "explanation": "First, we access the programming language at index -4, which is \"Python\". Then, we access the letter at index 3 of the word Python. That letter is `h`."
+  }
 ]
