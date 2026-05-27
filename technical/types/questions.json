@@ -1,0 +1,34 @@
+[
+    {
+        "question": "What type is the value `True`? ",
+        "options": [
+            "boolean",
+            "string",
+            "int",
+            "float"
+        ],
+        "correct": [
+            "string"
+        ]
+    },
+    {
+        "question": "What type is the value `123.321`?",
+        "options": [
+            "boolean",
+            "string",
+            "int",
+            "float"
+        ],
+        "correct": "float"
+    },
+    {
+        "question": "What type is the value -49?",
+        "options": [
+            "boolean",
+            "string",
+            "int",
+            "float"
+        ],
+        "correct": "int"
+    }
+]

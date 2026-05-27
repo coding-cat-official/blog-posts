@@ -147,3 +147,4 @@ REST_OF_CODE
 And here's a diagram explaining the flow of the chained elif statements:
 
 <img class="diagram" alt="branching elif statements" src="/blog-images/if-statements/branching-elif.png">
+

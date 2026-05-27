@@ -1,0 +1,39 @@
+[
+    {
+        "question": "What does the `total` variable contain at the end of this block of code? (Answers have been truncated to two digits) ",
+        "code": "price = 40.00\ntax = 1.15\nsale = 10\ntotal = price - sale * tax",
+        "options": [
+            "34.50",
+            "28.50",
+            "11.50",
+            "46",
+            "Error, the code won’t run  "
+        ],
+        "correct": [
+            "28.50"
+        ],
+        "explanation": "Even though logically we may think that the tax should be calculated after the deduction, the code is written in a way that makes the multiplication happen first, and then subtracts that from the price. If we wanted the subtraction to happen first, we should’ve put parentheses like that: `total = (price - sale) * tax`. "
+    },
+    {
+        "question": "What will this code print? ",
+        "code": "print(2**2**(4-1))",
+        "options": [
+            "8",
+            "256",
+            "64",
+            "512",
+            "Error, the code won’t run "
+        ],
+        "correct": "256"
+    },
+    {
+    "question": "What does the following block of code print?\n\nletter = 25\ncode = 10\nnew_letter = (letter + code)%26\nprint(new_letter)",
+    "options": [
+        "35",
+        "26",
+        "9",
+        "1"
+    ],
+    "correct": "9"
+    }
+]

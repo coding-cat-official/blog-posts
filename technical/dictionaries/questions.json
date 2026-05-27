@@ -1,0 +1,40 @@
+[
+  {
+    "question": "What’s the difference between the `get()` method and the index operator (`[]`)?",
+    "options": [
+      "get() uses a numbered index, while the index operator requires a string key.",
+      "get() uses a string key, while the index operator requires a numbered index.",
+      "get() returns None if the key is invalid, while the index operator throws an error.",
+      "get() throws an error if the key is invalid, while the index operator returns None."
+    ],
+    "correct": "get() returns None if the key is invalid, while the index operator throws an error."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "recipe = {\n    \"servings\": 6,\n    \"name\": \"Blueberry Cheesecake\",\n    \"prep_time\": 60,\n    \"cook_time\": 30,\n    \"ingredients\": [\"blueberries\", \"cream cheese\", \"graham cookies\"]\n}\n\nprint(recipe.get(\"ingredients\")[0])",
+    "options": [
+      "None",
+      "blueberries",
+      "6",
+      "cream cheese",
+      "30",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "blueberries",
+    "explanation": "We begin by getting the item in the dictionary labeled \"ingredients\", which is a list containing strings. We then get the 0th element from that list, which is \"blueberries\"."
+  },
+  {
+    "question": "What will this code print?",
+    "code": "recipe = {\n    \"servings\": 6,\n    \"name\": \"Blueberry Cheesecake\",\n    \"prep_time\": 60,\n    \"cook_time\": 30,\n    \"ingredients\": [\"blueberries\", \"cream cheese\", \"graham cookies\"]\n}\n\nrecipe.update(\"name\") = \"The Amazing Blueberry Cheesecake\"\nrecipe[\"ingredients\"][1] = \"cool blueberries\"\nprint(recipe.get(\"ingredients\")",
+    "options": [
+      "The Amazing Blueberry Cheesecake",
+      "cool blueberries",
+      "[\"blueberries\", \"cream cheese\", \"graham cookies\"]",
+      "[\"blueberries\", \"cool blueberries\", \"graham cookies\"]",
+      "[\"cool blueberries\", \"cream cheese\", \"graham cookies\"]",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "[\"blueberries\", \"cool blueberries\", \"graham cookies\"]",
+    "explanation": "On the line before the last one, we replaced an item in the value associated to the \"ingredients\" key. However, we didn’t replace the whole list. We accessed what was located at the 1st index of that list and replaced that."
+  }
+]

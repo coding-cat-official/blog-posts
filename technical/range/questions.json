@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What will this code print?",
+    "code": "my_range = range(2, 5)\nprint(my_range)",
+    "options": [
+      "[2, 3, 4, 5]",
+      "[2, 3, 4]",
+      "[0, 1, 2, 3, 4, 5]",
+      "range(2, 5)",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "range(2, 5)",
+    "explanation": "Remember that `range()` is a lazy function! It won’t load all the digits in it unless it has to (such as in a for loop). When we ask Python to print a range, it won’t load all the numbers."
+  },
+  {
+    "question": "What will this code print?",
+    "code": "my_range = range(10, -5, -5)\nprint(list(my_range))",
+    "options": [
+      "[10, 5, 0]",
+      "[10, 5, 0, -5]",
+      "[-5, 0, 5, 10]",
+      "[-5, 0, 5]",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "[10, 5, 0]",
+    "explanation": "The first parameter is the starting point, 10. The second parameter is the stopping point, where Python will stop before that point is reached (it will never reach -5). The last parameter is the step, which will be used to increment the range (in our case, it’s negative)"
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "my_range = range(2, 5)\ntotal = 0\n\nfor n in my_range:\n    total = total + n\n\nprint(total)",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "7",
+      "9",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "9"
+  }
+]

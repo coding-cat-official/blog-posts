@@ -127,3 +127,4 @@ When you name a variable, make sure it’s meaningful to you without being too l
 Note: The actual name of the variable you end up choosing has <span class="bold">no impact</span> on how the computer runs your code. Just because you called a variable `total` doesn’t mean the program will automatically calculate the total. Variable names exist only for you and other programmers to understand the code more easily.
 
 Likewise, do not name your variables with their type, such as name_str or cost_float. Humans should be able the figure out what the variable contains based on its name, and Python is definitely not deciding on the type based on the name! 
+

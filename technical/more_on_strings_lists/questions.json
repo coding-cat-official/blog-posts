@@ -1,0 +1,37 @@
+[
+  {
+    "question": "Is the following code valid?",
+    "code": "new_string = \"hello there\"\nnew_string[5] = \"-\"",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": "No",
+    "explanation": " Since strings are immutable, we cannot reassign an element to one of its indexes."
+  },
+  {
+    "question": "What will this code print?",
+    "code": "words = \"quicker than a ray of light she's flying\"\nnew_list = [\"vanished\", \"flying\", \"invisible\"]\nprint(\"flying\" in words and \"flying\" in new_list)",
+    "options": [
+      "True",
+      "False",
+      "'flying not in words'",
+      "'flying in words'",
+      "Error, the code doesn’t run"
+    ],
+    "correct": "True",
+    "explanation": "The string \"flying\" can be found in both the `words` string and the `new_list` array."
+  },
+  {
+    "question": "What will the following code print?",
+    "code": "words = \"quicker;than;a;ray;of;light;she's;flying\"\n\ndecomposed = words.split(\";\")\n\nglue = \" \"\n\nrecomposed = decomposed.join(glue)\n\nprint(recomposed)",
+    "options": [
+      "quicker than a ray of light she's flying",
+      "quicker;than;a;ray;of;light;she's;flying",
+      "quickerthanarayoflightshe'sflying",
+      "Error, the code won’t run"
+    ],
+    "correct": "Error, the code won’t run",
+    "explanation": "You need to run the `join()` method on the glue, while passing the array as a parameter. The proper syntax would’ve been: `glue.join(decomposed)`."
+  }
+]

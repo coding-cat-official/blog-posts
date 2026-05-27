@@ -163,3 +163,6 @@ Understanding the full map of computer science helps anyone make sense of the wo
 <p>
     Domain of Science. "Map of Computer Science." YouTube, 6 Sept. 2017, https://www.youtube.com/watch?v=SzJ46YA_RaA Accessed 20 May 2026.
 </p>
+<p>
+    Wikipedia, "Turing Machine", Wikimedia Foundation, https://en.wikipedia.org/wiki/Turing_machine. Accessed 20 May 2026.
+</p>

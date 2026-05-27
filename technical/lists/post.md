@@ -144,3 +144,4 @@ What do you think is the output of the above?
 Both lists and strings are <span class="bold">collection data types</span>, meaning they are made up of many smaller pieces of data. These smaller pieces can be accessed based on their position in the data, or their <span class="bold">index</span>, using square brackets.
 
 Lists have lots of built-in methods, just like strings do. 
+

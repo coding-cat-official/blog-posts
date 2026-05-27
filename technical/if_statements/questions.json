@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Does the commented line belong to an if statement?",
+    "code": "age = 54\n\nif age < 5:\n    print(\"You are a toddler\")\n\nprint(\"You are a baby\") # <- this line",
+    "options": [
+      "Yes",
+      "No",
+      "Error, the code won’t run"
+    ],
+    "correct": "No"
+  },
+  {
+    "question": "Will the commented line be executed?",
+    "code": "price = 23.00\nprint(\"Checking price…\")\n\nif price > 100:\n    print(\"This is very expensive\") # <- this line",
+    "options": [
+      "Yes",
+      "No",
+      "Error, the code won’t run"
+    ],
+    "correct": "Error, the code won’t run",
+    "explanation": "At least one line after an if statement needs to be indented. If none are indented, Python treats it as an error."
+  },
+  {
+    "question": "Will the commented line be executed?",
+    "code": "role = \"teacher\"\n\nif name == \"Teacher\":\n    print(\"Here’s the teacher’s lounge code: XXX\") # <- this line\nelse:\n    print(\"You do not have access to the lounge.\")",
+    "options": [
+      "Yes",
+      "No",
+      "Error, the code won’t run"
+    ],
+    "correct": "No",
+    "explanation": "Even though the role is “teacher” and the user should have access to the teacher’s lounge, the `if` statement checks for \"Teacher\" with a capital T."
+  }
+]

@@ -100,3 +100,6 @@ The Macintosh didn't just change computing. It showed that the best technology s
 <p>
     Johnson, Benjamin D. "Coding with Empathy." <em>Medium</em>, https://medium.com/@benjamin.d.johnson/coding-with-empathy-37a708040f14 Accessed 8 May 2026.
 </p>
+<p>
+    "Mac (Computer)", Wikipedia, Wikimedia Foundation, https://en.wikipedia.org/wiki/Mac_(computer). Accessed 8 May 2026.
+</p>
