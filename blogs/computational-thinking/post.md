@@ -45,7 +45,7 @@ The goal is to eventually become a <span class="bold">good programmer</span>. Bu
 This requires a grasp of computational thinking.
 </div>
 
-Students tend to think they can “bullshit” an assignment and write whatever lets them get this over with quickly. Coding is not like that. If your program doesn’t run, it just doesn’t, and there’s no “bullshitting” that.
+Students tend to think they can “fake” an assignment and write whatever lets them get this over with quickly. Coding is not like that. If your program doesn’t run, it just doesn’t, and there’s no faking that.
 
 We want to help you reach your full potential. For you to succeed, you need to get used to a new way of thinking, which you will begin to naturally become proficient in as you dive further into Computer Science.
 
@@ -55,7 +55,7 @@ We want to help you reach your full potential. For you to succeed, you need to g
 <p class="block-quote">“Computational thinking \[is\] a composite set of thinking and problem-solving skills closely related to, and learned through, coding” (Grover 105)</p>
 </div>
 
-It's a grouping of multiple interrelated ways of thinking that each help you become a better programmer.
+Let's look at each of the components in that set of skills.
 
 #### Logical Reasoning
 

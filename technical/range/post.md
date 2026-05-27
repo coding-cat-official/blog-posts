@@ -3,6 +3,10 @@
         font-weight: bold;
         color: #8ae514;
     }
+    span.special-bold {
+        font-weight: bold;
+        color: black;
+    }
     table>tbody>tr>td {
         padding: 0 1rem;
     }
@@ -71,7 +75,7 @@ How many values are produced by range(6)? What are they?
 <br />
 
 <div class="highlight">
-Note: Like we saw with the indexing, <span class="bold">programming languages count from 0</span>! 0 is the first element, 1 is the second, etc.
+Note: Like we saw with the indexing, <span class="special-bold">programming languages count from 0</span>! 0 is the first element, 1 is the second, etc.
 </div>
 
 The `range` function is actually a very powerful function when it comes to creating sequences of integers. It can take one, two, or three parameters. We have seen the simplest case of one parameter such as `range(4)` which creates `[0, 1, 2, 3]`. 
