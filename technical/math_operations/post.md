@@ -106,4 +106,3 @@ What do you think this code will print?
 </details>
 <br />
 
-### Quiz

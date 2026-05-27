@@ -128,4 +128,3 @@ Note: The actual name of the variable you end up choosing has <span class="bold"
 
 Likewise, do not name your variables with their type, such as name_str or cost_float. Humans should be able the figure out what the variable contains based on its name, and Python is definitely not deciding on the type based on the name! 
 
-### Quiz

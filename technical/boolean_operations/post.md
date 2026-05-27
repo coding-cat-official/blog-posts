@@ -251,4 +251,3 @@ True and False
 False  # different result!
 ```
 
-### Quiz

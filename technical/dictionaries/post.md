@@ -192,4 +192,3 @@ How many keys does the `today` dictionary now have?
 </details>
 <br />
 
-### Quiz

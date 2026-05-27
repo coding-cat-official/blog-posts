@@ -79,4 +79,3 @@ What will this code print?
 </details>
 <br />
 
-### Quiz

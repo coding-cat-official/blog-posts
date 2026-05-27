@@ -38,4 +38,3 @@ did you read this article?"""</small>
 
 <small>Note 2: What about values like "17" and "0.6"? They look like numbers, but the quotation marks mean they are strings.</small>
 
-### Quiz

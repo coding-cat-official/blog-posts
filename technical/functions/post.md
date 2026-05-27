@@ -135,4 +135,3 @@ What do you think the variable `total` now contains?
 </details>
 <br />
 
-### Quiz

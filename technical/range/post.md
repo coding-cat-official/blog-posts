@@ -112,4 +112,3 @@ What would be the output of the first print statement?
 </details>
 <br />
 
-### Quiz

@@ -81,4 +81,3 @@ Note: Evaluation begins with the top row and progresses downwards. Operators on 
 
 <a href="/#/blogs/string_operations">Click here for more details on string operators and operands.</a>
 
-### Quiz

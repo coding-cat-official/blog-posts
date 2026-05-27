@@ -145,4 +145,3 @@ Both lists and strings are <span class="bold">collection data types</span>, mean
 
 Lists have lots of built-in methods, just like strings do. 
 
-### Quiz

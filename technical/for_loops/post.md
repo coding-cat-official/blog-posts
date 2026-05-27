@@ -94,4 +94,3 @@ How many times will the program above print something? What will be the 5th thin
 
 The loop variable `character` is automatically reassigned each character in the string “Camila GR”. We will refer to this type of sequence iteration as <span class="bold">iteration by item</span>. Note that it is only possible to process the characters one at a time from left to right.
 
-### Quiz
