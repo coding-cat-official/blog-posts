@@ -39,11 +39,13 @@ print(price == 100)
 
 What do you think the code above prints?
 
+<div>
 <details>
     <summary>Answer</summary>
     `False`
 </details>
 <br />
+</div>
 
 Here, we’re using an <span class="bold">equality operator</span> to check whether the variable `price` is equal to 100. Notice that, unlike in mathematics, we’re using two equal signs (`==`) instead of one. This is to avoid conflicts with the assignment statement, which already uses one equal sign. [Here's the article if you need a refresher](/#/blogs/statements_expressions)
 
@@ -56,11 +58,13 @@ print(price != 100)
 
 What do you think the above statement prints? 
 
+<div>
 <details>
     <summary>Answer</summary>
     `True`
 </details>
 <br />
+</div>
 
 It evaluates to True because both sides are <span class="bold">not equal</span>. This is why we call it an inequality operator.
 
@@ -73,11 +77,13 @@ print(price>100)
 
 What do you think the code above prints? 
 
+<div>
 <details>
     <summary>Answer</summary>
     `True`
 </details>
 <br />
+</div>
 
 Here, we’re using a <span class="bold">comparison operator</span> to check whether the variable `price` is above 100. The inequality and equality operators also belong to the category of comparison operators. There are a few more comparison operators that can be used, like `<` (lesser than), `>` (greater than), `<=` (lesser than or equal to), and `>=` (greater than or equal to). These can be used to compare numbers:
 
@@ -98,6 +104,7 @@ print(message != "hi there")
 
 What do you think the above code prints?
 
+<div>
 <details>
     <summary>Answer</summary>
     `False`
@@ -105,6 +112,7 @@ What do you think the above code prints?
     `True`
 </details>
 <br />
+</div>
 
 Be careful, because the capitalization of the string matters! "Hello" and "hello" are considered two different strings.
 
@@ -127,11 +135,13 @@ print(price > 0 and price < 100)
 
 What do you think is the output of the above code?
 
+<div>
 <details>
     <summary>Answer</summary>
     `True`
 </details>
 <br />
+</div>
 
 The `and` logical operator will only return `True` if the expressions on both sides evaluate to True. We use it when we want to make sure that multiple things are true at once.
 
@@ -151,11 +161,13 @@ print(price < 100 or price > 1000)
 
 What do you think that code prints? 
 
+<div>
 <details>
     <summary>Answer</summary>
     `True`
 </details>
 <br />
+</div>
 
 The `or` logical operator will return `True` as long as at least one side of the statement evaluates to True. In the example above, the price is under 100. Even though it’s not over 1000, the use of the `or` operator makes sure that only one of the two conditions needs to be satisfied.
 
@@ -175,11 +187,13 @@ print(not product_cheap)
 
 What do you think that code prints?
 
+<div>
 <details>
     <summary>Answer</summary>
     `False`
 </details>
 <br />
+</div>
 
 The `not` logical operator flips the boolean to the other state. The expression `not True` evaluates to `False`, and the expression `not False` evaluates to `True`.
 
@@ -200,6 +214,7 @@ print(not is_good_quality)
 
 What does this code print, one line at a time?
 
+<div>
 <details>
     <summary>Answer</summary>
     `True`
@@ -209,6 +224,7 @@ What does this code print, one line at a time?
     `False`
 </details>
 <br />
+</div>
 
 ### Parentheses
 
